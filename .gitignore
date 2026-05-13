@@ -1,0 +1,98 @@
+# Flutter build artifacts
+build/
+.dart_tool/
+.flutter-plugins-dependencies
+flutter_export_environment.sh
+
+# Generated files
+*.g.dart
+*.pb.dart
+*.pbenum.dart
+*.pbserver.dart
+*.pbjson.dart
+
+# Local configuration
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+*.iml
+*.iws
+
+# Platform-specific
+.android/
+.ios/
+.windows/
+.linux/
+.macos/
+.web/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+
+# OS
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Packages
+pubspec.lock
+.packages
+*.pub
+
+# Documentation
+doc/api/
+.dartdoc-info.json
+
+# Misc
+.metadata
+devtools_options.yaml
+fix_consts.dart
+*.iml
+*.pem
+*.keystore
+*.jks
+
+# Large files (exceeds GitHub limit)
+*.pdb
+*.dll
+*.so
+*.dylib
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+
+# Generated app icon and launcher image
+android/app/src/main/res/mipmap-*/ic_launcher*.png
+ios/Runner/Assets.xcassets/AppIcon.appiconset/
+ios/Runner/Assets.xcassets/LaunchImage.imageset/
+
+# Obfuscation related
+app.*.map.json
+
+# macOS specific
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/Flutter-Generated.xcconfig
+
+# Web specific
+.dart_js_plugin_registrant
+
+# Temporary files
+*.tmp
+*.bak
+*.swp

@@ -1,0 +1,65 @@
+name: secure_vault
+description: "UB Secure - Zero-Knowledge Encrypted Vault"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  
+  # Cryptography
+  cryptography: ^2.7.0
+  
+  # State Management
+  flutter_riverpod: ^2.6.1
+  
+  # Storage
+  path_provider: ^2.1.5
+  shared_preferences: ^2.3.4
+  
+  # Utilities
+  uuid: ^4.5.1
+  intl: ^0.20.2
+  file_picker: ^8.1.7
+  url_launcher: ^6.3.1
+  
+  # UI
+  google_fonts: ^6.2.1
+  firebase_core: 4.6.0
+  firebase_auth: 6.3.0
+  cloud_firestore: 6.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  msix: ^3.16.13
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/banks/
+    - assets/providers/
+    - assets/misc/
+    - assets/logo/
+
+flutter_launcher_icons:
+  android: false
+  ios: false
+  windows:
+    generate: true
+    image_path: "assets/logo/UBsecureLogo.png"
+  image_path: "assets/logo/UBsecureLogo.png"
+
+msix_config:
+  display_name: UB Secure
+  publisher_display_name: UB
+  identity_name: ubsecure.app
+  msix_version: 1.0.0.0
+  logo_path: assets/logo/UBsecureLogo.png
